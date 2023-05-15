@@ -28,16 +28,16 @@ public class BookCrudBackendApplication implements CommandLineRunner {
 		book1.setBookPrice(78);
 		bookRepository.save(book1);
 		Book book2 = new Book();
-		book1.setBookTitle("HTML");
-		book1.setBookPrice(78);
+		book2.setBookTitle("CSS");
+		book2.setBookPrice(48);
 		bookRepository.save(book2);
 		Book book3 = new Book();
-		book1.setBookTitle("HTML");
-		book1.setBookPrice(78);
+		book3.setBookTitle("MYSQL");
+		book3.setBookPrice(88);
 		bookRepository.save(book3);
 		Book book4 = new Book();
-		book1.setBookTitle("HTML");
-		book1.setBookPrice(78);
+		book4.setBookTitle("AWS");
+		book4.setBookPrice(28);
 		bookRepository.save(book4);
 	}
 }
